@@ -5,7 +5,7 @@ Here's a general outline of how we approached this project:
 Hardware Setup:
 
 Place LDRs in strategic positions to detect the presence of obstacles on the screen. You'll need one LDR per obstacle lane. Here, we use two LDRs for two lanes where obstacles can appear. And one LDR as background detector, so a total of three LDRs.
-Connect each LDR to an analog input pin on a microcontroller (i.e., Arduino) that will process the sensor data.
+Connect each LDR to an analog input pin on a microcontroller (i.e., Arduino) that will process the sensor data. 
 Calibration:
 
 Calibrate the LDRs to determine the threshold values for obstacle detection. You'll need to experiment to find the LDR values that correspond to an obstacle being present in each lane.
